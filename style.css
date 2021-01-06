@@ -1,0 +1,195 @@
+body{
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+.menu{
+    height: 100px;
+}
+
+ul{
+    list-style: none;
+    float: right;
+    display: flex;
+    padding-right: 7%;
+}
+
+ul li{
+    padding: 10px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(27, 25, 25);
+}
+
+.half-width{
+    width: 40%;
+    height: 500px;
+    float: left;
+    overflow: hidden;
+    margin-left: 5%;
+    padding: 0 2%;
+}
+
+.photo{
+    width: 100%;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 800;
+    color: rgb(65, 64, 64);
+}
+
+h2{
+    font-size: 35px;
+    font-weight: 800;
+    color: rgb(65, 64, 64);
+}
+
+h3{
+    font-size: 20px;
+    color: rgb(87, 82, 82);
+}
+
+h4{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.green-highlight{
+    color: green;
+}
+
+.link-button{
+    text-decoration: none;
+    padding: 17px 50px;
+    background-image: linear-gradient(to right, rgba(10, 243, 224, 0.781), rgba(58, 177, 11, 0.842));
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 800;
+    color: rgb(255, 250, 250);
+}
+
+p{
+    color: dimgray;
+}
+
+.pic-frame-1{
+    width: 23%;
+    float: left;
+    margin-left: 10%;
+    padding: 1%;
+}
+
+.pic-frame-2{
+    width: 23%;
+    float: left;
+    margin:0 2%;
+    padding: 1%;
+}
+
+.pic-frame-3{
+    width: 23%;
+    float: left;
+    margin-right: 10%;
+    padding: 1%;
+}
+
+.pic-frame-4{
+    width: 25%;
+    float: left;
+    margin-left: 15%;
+    padding: 3%;
+}
+
+.pic-frame-5{
+    width: 25%;
+    float: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 3%;
+}
+
+.box{
+    box-shadow: 10px 10px 40px rgb(255, 255, 255);
+    height: 300px;
+    border-radius: 15px;
+    background-color: white;
+    margin-bottom: 10%;
+}
+
+.mid-area{
+    height: 1200px;
+    background-color:whitesmoke;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.h-pos{
+    text-align: center;
+    padding: 90px 0 60px 0;
+}
+
+.photo-gallery{
+    width: 100%;
+}
+
+
+#footer-section{
+    background-image: url(shapes/Group_33094_1.png);
+    background-size: 800px;
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    float: left;
+    margin-left: 18%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.half-width-3{
+    width: 25%;
+    float: left;
+    margin-left: 3%;
+    padding-left: 2%;
+    margin-top: 2%;
+}
+
+.half-width-2{
+    width: 40%;
+    float: left;
+    margin: 7% 0 7% 18%;
+    padding-left: 2%;
+}
+
+.link-button-footer{
+    text-decoration: none;
+    padding: 17px 30px;
+    margin-top: 80%;
+    background-image: linear-gradient(to right, rgba(10, 243, 224, 0.781), rgba(58, 177, 11, 0.842));
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+}
+
+#end-btn{
+    text-decoration: none;
+    font-size: 35px;
+    color: rgb(54, 54, 54);
+    font-weight: 800;
+}
+
+.img{
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+}
